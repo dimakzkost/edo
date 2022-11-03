@@ -1,0 +1,2 @@
+Создать токен пользователю
+    python3 manage.py drf_create_token dimakz
