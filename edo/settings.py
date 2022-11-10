@@ -22,10 +22,12 @@ INSTALLED_APPS = [
     'rest_framework',
     'users.apps.UsersConfig',
     'lk.apps.lkConfig',
+    'staff.apps.StaffConfig',
     'crispy_forms',
     'rest_framework.authtoken',
 
 ]
+
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
